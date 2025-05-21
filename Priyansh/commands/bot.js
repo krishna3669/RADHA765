@@ -97,7 +97,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "🤔") ||(event.body.toLowerCase() == "🤔🤔") ||(event.body.toLowerCase() == "🤔🤔🤔") ||(event.body.toLowerCase() == "🤔🤔🤔🤔") ||(event.body.toLowerCase() == "🤨") ||(event.body.toLowerCase() == "🤨🤨") ||(event.body.toLowerCase() == "🤨🤨🤨") || (event.body.toLowerCase() == "🤨🤨🤨🤨")) {
-     return api.sendMessage("️🍒🍒🍒🍒....𝐊𝐲𝐀 𝐒𝐨𝐂𝐡 𝐑𝐞𝐇𝐞 𝐇𝐨 𝐞𝐓𝐍𝐚 𝐁𝐚𝐁𝐮....😏😏😏Kya soch rahe ho etna 🤨", threadID);
+     return api.sendMessage("️🍒🍒🍒🍒....𝐊𝐲𝐀 𝐒𝐨𝐂𝐡 𝐑𝐞𝐇𝐞 𝐇𝐨 𝐞𝐓𝐍𝐚 𝐁𝐚𝐁𝐮....😏😏😏", threadID);
    };
 
    if ((event.body.toLowerCase() == "🙃") ||(event.body.toLowerCase() == "🙃🙃") ||(event.body.toLowerCase() == "🙃🙃🙃") || (event.body.toLowerCase() == "🙃🙃🙃🙃")) {
